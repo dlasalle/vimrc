@@ -27,8 +27,8 @@ set modeline
 set ls=2
 
 " doxygen
-let s:meNameEmail="Dominique LaSalle <dominique@solidlake.com>"
-let s:copyrightMe="Copyright 2019"
+let s:meNameEmail="NAME <EMAIL>"
+let s:copyrightMe="Copyright YEAR"
 let g:DoxygenToolkit_commentType="C"
 let g:DoxygenToolkit_authorName=s:meNameEmail."\<enter>* ".s:copyrightMe
 let g:DoxygenToolkit_versionString="1"
